@@ -1,6 +1,3 @@
-import { z } from "zod";
-import { WalletNetwork } from "@creit.tech/stellar-wallets-kit";
-
 export const stellarNetwork = "FUTURENET";
 export const networkPassphrase = "Test SDF Future Network ; October 2022";
 export const rpcUrl = "https://rpc-futurenet.stellar.org";
