@@ -1,6 +1,12 @@
 {
-  "buildCommand": "cd packages/invoice_registry && npm install && npm run build && cd ../.. && npm run build",
+  "buildCommand": "npm run build",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
