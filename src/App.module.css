@@ -1,0 +1,33 @@
+[data-theme='dark'] main {
+  background: var(--color-background);
+  min-height: 100vh;
+}
+
+[data-theme='dark'] .Layout__header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+[data-theme='dark'] .Layout__footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Navigation buttons */
+nav button {
+  transition: all 0.2s ease;
+}
+
+nav button:hover {
+  transform: translateY(-1px);
+}
+
+/* Card animations */
+.Card {
+  transition: all 0.2s ease;
+}
+
+.Card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
