@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button, Code, Input, Text } from "@stellar/design-system";
 import { useWallet } from "../hooks/useWallet";
-import game from "../contracts/guess_the_number";
 import { Box } from "../components/layout/Box";
 
 export const GuessTheNumber = () => {
